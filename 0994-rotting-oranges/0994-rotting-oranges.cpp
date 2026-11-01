@@ -69,8 +69,8 @@ public:
         visited.assign(grid.size(), vector<bool>(grid[0].size(), false));
         time.assign(grid.size(), vector<int>(grid[0].size(), 0));
 
-        // countNormalOranges = 0;
-        // countRotOranges = 0;
+        countNormalOranges = 0;
+        countRotOranges = 0;
 
         for (int i=0; i < grid.size(); i++) {
             for (int j=0; j < grid[i].size(); j++) {
